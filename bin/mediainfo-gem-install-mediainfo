@@ -1,0 +1,6 @@
+#! /usr/bin/env ruby
+
+require 'rake'
+load File.expand_path '../../Rakefile', __FILE__
+
+Rake::Task['compile:mediainfo'].invoke
